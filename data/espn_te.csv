@@ -1,0 +1,81 @@
+RNK,"PLAYER, TEAM POS",    C/A,  YDS,   TD,  INT, RUSH,  YDS,   TD,  REC,  YDS,   TD,PTS
+1,"Rob Gronkowski, NE TE",0/0,0,0,0,0,0,0,82,1018,9,155
+2,"Jimmy Graham, Sea TE",0/0,0,0,0,0,0,0,65,773,8,124.1
+3,"Greg Olsen, Car TE",0/0,0,0,0,0,0,0,71,866,5,115.3
+4,"Travis Kelce, KC TE",0/0,0,0,0,0,0,0,74,799,5,107.3
+5,"Martellus Bennett, Chi TE",0/0,0,0,0,0,0,0,68,740,5,103.9
+6,"Jason Witten, Dal TE",0/0,0,0,0,0,0,0,58,670,6,103
+7,"Jordan Cameron, Mia TE",0/0,0,0,0,0,0,0,52,641,5,93.7
+8,"Zach Ertz, Phi TE  Q",0/0,0,0,0,0,0,0,52,647,5,93.5
+9,"Julius Thomas, Jac TE  Q",0/0,0,0,0,0,0,0,70,791,5,107.7
+10,"Dwayne Allen, Ind TE",0/0,0,0,0,0,0,0,50,543,6,89.5
+11,"Delanie Walker, Ten TE  P",0/0,0,0,0,0,0,0,61,690,4,91.6
+12,"Antonio Gates, SD TE  SSPD",0/0,0,0,0,0,0,0,42,507,4,73.7
+13,"Larry Donnell, NYG TE  P",0/0,0,0,0,0,0,0,50,589,5,86.9
+14,"Owen Daniels, Den TE",0/0,0,0,0,0,0,0,46,513,5,80.9
+15,"Austin Seferian-Jenkins, TB TE",0/0,0,0,0,0,0,0,48,587,4,81.5
+16,"Josh Hill, NO TE",0/0,0,0,0,0,0,0,45,486,5,77.6
+17,"Jordan Reed, Wsh TE  P",0/0,0,0,0,0,0,0,56,586,4,81.2
+18,"Kyle Rudolph, Min TE",0/0,0,0,0,0,0,0,53,588,4,81.9
+19,"Heath Miller, Pit TE",0/0,0,0,0,0,0,0,53,599,4,81.9
+20,"Charles Clay, Buf TE",0/0,0,0,0,0,0,0,49,535,4,76.9
+21,"Coby Fleener, Ind TE",0/0,0,0,0,0,0,0,39,469,5,76
+22,"Eric Ebron, Det TE",0/0,0,0,0,0,0,0,53,590,4,82.5
+23,"Tyler Eifert, Cin TE",0/0,0,0,0,0,0,0,52,606,4,83.5
+24,"Vernon Davis, SF TE",0/0,0,0,0,0,0,0,45,587,3,75.4
+25,"Richard Rodgers, GB TE",0/0,0,0,0,0,0,0,40,457,5,74.7
+26,"Jace Amaro, NYJ TE  Q",0/0,0,0,0,0,0,0,44,485,3,65.6
+27,"Maxx Williams, Bal TE",0/0,0,0,0,0,0,0,35,410,3,58.7
+28,"Jacob Tamme, Atl TE",0/0,0,0,0,0,0,0,43,469,3,63.7
+29,"Jared Cook, StL TE",0/0,0,0,0,0,0,0,42,492,3,66.8
+30,"Mychal Rivera, Oak TE",0/0,0,0,0,0,0,0,36,410,2,52.2
+31,"Rob Housler, Cle TE",0/0,0,0,0,0,0,0,32,373,2,48.5
+32,"Virgil Green, Den TE",0/0,0,0,0,0,0,0,32,296,3,46.7
+33,"Ladarius Green, SD TE",0/0,0,0,0,0,0,0,34,424,3,59.8
+34,"Dion Sims, Mia TE",0/0,0,0,0,0,0,0,27,290,2,40.7
+35,"Scott Chandler, NE TE  P",0/0,0,0,0,0,0,0,18,196,2,30.9
+36,"Benjamin Watson, NO TE",0/0,0,0,0,0,0,0,27,309,3,47.8
+37,"Brent Celek, Phi TE",0/0,0,0,0,0,0,0,22,248,2,35.8
+38,"Garrett Graham, Hou TE",0/0,0,0,0,0,0,0,20,217,1,26.7
+39,"Andrew Quarless, GB TE",0/0,0,0,0,0,0,0,14,153,2,26.9
+40,"Gavin Escobar, Dal TE  P",0/0,0,0,0,0,0,0,16,200,3,37.9
+41,"Marcedes Lewis, Jac TE",0/0,0,0,0,0,0,0,19,221,2,33.8
+42,"Tim Wright, TB TE",0/0,0,0,0,0,0,0,14,178,1,22.9
+43,"Jermaine Gresham, Ari TE  P",0/0,0,0,0,0,0,0,16,166,1,21.6
+44,"Crockett Gillmore, Bal TE",0/0,0,0,0,0,0,0,23,267,2,37.8
+45,"Tyler Kroft, Cin TE",0/0,0,0,0,0,0,0,14,156,1,20.9
+46,"Luke Willson, Sea TE",0/0,0,0,0,0,0,0,11,125,1,18
+47,"Joseph Fauria, Det TE  P",0/0,0,0,0,0,0,0,11,123,1,17.9
+48,"Gary Barnidge, Cle TE",0/0,0,0,0,0,0,0,9,100,1,15.9
+49,"Clive Walford, Oak TE  P",0/0,0,0,0,0,0,0,29,339,2,44.7
+50,"Vance McDonald, SF TE",0/0,0,0,0,0,0,0,6,73,0,6.9
+51,"C.J. Fiedorowicz, Hou TE",0/0,0,0,0,0,0,0,14,155,1,20.9
+52,"Dennis Pitta*, Bal TE  O",0/0,0,0,0,0,0,0,23,264,2,37.9
+53,"Tony Moeaki, Atl TE",0/0,0,0,0,0,0,0,4,44,0,4
+54,"Lance Kendricks, StL TE",0/0,0,0,0,0,0,0,26,284,2,39.8
+55,"James Casey, Den TE",0/0,0,0,0,0,0,0,13,115,1,16.9
+56,"Darren Fells, Ari TE",0/0,0,0,0,0,0,0,24,268,2,37.8
+57,"Troy Niklas, Ari TE",0/0,0,0,0,0,0,0,20,210,2,32.8
+58,"Brandon Pettigrew, Det TE",0/0,0,0,0,0,0,0,5,61,0,5.9
+59,"Ryan Griffin, Hou TE",0/0,0,0,0,0,0,0,10,113,1,16.9
+60,"Anthony Fasano, Ten TE",0/0,0,0,0,0,0,0,7,75,1,12.9
+61,"Tony Gonzalez, Atl TE",--/--,--,--,--,--,--,--,--,--,--,--
+62,"Reggie Kelly, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+63,"Jimmy Kleinsasser, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+64,"Desmond Clark, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+65,"Anthony Becht, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+66,"Brian Jennings, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+67,"Justin Snow, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+68,"Todd Heap, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+69,"Alge Crumpler, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+70,"Brandon Manumaleuna, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+71,"Tony Stewart, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+72,"David Martin, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+73,"Jeremy Shockey, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+74,"Daniel Graham, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+75,"Chris Baker, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+76,"Justin Peelle, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+77,"Randy McMichael, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+78,"Robert Royal, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+79,"John Gilmore, FA TE",--/--,--,--,--,--,--,--,--,--,--,--
+80,"Dallas Clark, Bal TE",--/--,--,--,--,--,--,--,--,--,--,--

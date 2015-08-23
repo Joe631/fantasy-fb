@@ -1,0 +1,81 @@
+RNK,"PLAYER, TEAM POS",    C/A,  YDS,   TD,  INT, RUSH,  YDS,   TD,  REC,  YDS,   TD,PTS
+1,"Le'Veon Bell, Pit RB  SSPD",0/0,0,0,0,247,1062,6,62,502,3,208.5
+2,"Adrian Peterson, Min RB  P",0/0,0,0,0,264,1231,9,47,394,2,222.6
+3,"Eddie Lacy, GB RB",0/0,0,0,0,293,1297,9,46,323,3,229.6
+4,"Jamaal Charles, KC RB",0/0,0,0,0,243,1121,9,55,473,3,225.7
+5,"Marshawn Lynch, Sea RB",0/0,0,0,0,281,1296,10,33,258,2,222.6
+6,"Antonio Brown, Pit WR",0/0,0,0,0,4,26,0,116,1522,9,208.7
+7,"C.J. Anderson, Den RB",0/0,0,0,0,270,1173,9,47,402,1,215.6
+8,"Matt Forte, Chi RB",0/0,0,0,0,251,1066,5,65,597,2,205.4
+9,"DeMarco Murray, Phi RB  P",0/0,0,0,0,251,1160,10,25,197,1,197.6
+10,"Demaryius Thomas, Den WR",0/0,0,0,0,0,0,0,102,1298,11,195
+11,"LeSean McCoy, Buf RB  Q",0/0,0,0,0,311,1399,7,29,206,1,203.5
+12,"Rob Gronkowski, NE TE",0/0,0,0,0,0,0,0,82,1018,9,155
+13,"Dez Bryant, Dal WR  P",0/0,0,0,0,0,0,0,90,1361,10,194
+14,"Jeremy Hill, Cin RB",0/0,0,0,0,275,1233,10,22,168,1,199.6
+15,"Odell Beckham Jr., NYG WR  P",0/0,0,0,0,8,54,0,102,1363,8,187
+16,"Jordy Nelson, GB WR",0/0,0,0,0,0,0,0,84,1263,10,186
+17,"Julio Jones, Atl WR",0/0,0,0,0,2,13,0,105,1403,8,187.1
+18,"Calvin Johnson, Det WR",0/0,0,0,0,0,0,0,87,1283,10,188
+19,"A.J. Green, Cin WR",0/0,0,0,0,5,30,0,90,1266,8,175.1
+20,"Alshon Jeffery, Chi WR  Q",0/0,0,0,0,8,51,0,88,1223,8,173
+21,"Randall Cobb, GB WR",0/0,0,0,0,16,119,0,86,1132,8,172
+22,"T.Y. Hilton, Ind WR  P",0/0,0,0,0,4,26,0,86,1194,8,167.6
+23,"Mark Ingram, NO RB",0/0,0,0,0,227,951,11,29,220,1,187.6
+24,"Mike Evans, TB WR",0/0,0,0,0,0,0,0,81,1205,7,160
+25,"Emmanuel Sanders, Den WR  P",0/0,0,0,0,9,60,0,78,1086,7,154
+26,"Alfred Morris, Wsh RB",0/0,0,0,0,274,1182,8,19,147,1,184.5
+27,"Lamar Miller, Mia RB",0/0,0,0,0,250,1125,6,40,317,1,183.4
+28,"DeAndre Hopkins, Hou WR",0/0,0,0,0,0,0,0,84,1198,5,147.1
+29,"Brandin Cooks, NO WR",0/0,0,0,0,12,82,0,79,1072,6,151.8
+30,"Jimmy Graham, Sea TE",0/0,0,0,0,0,0,0,65,773,8,124.1
+31,"Carlos Hyde, SF RB",0/0,0,0,0,262,1092,9,19,152,0,176.5
+32,"Justin Forsett, Bal RB",0/0,0,0,0,210,966,5,51,390,2,175.4
+33,"Jordan Matthews, Phi WR",0/0,0,0,0,0,0,0,81,995,7,141
+34,"Melvin Gordon, SD RB  P",0/0,0,0,0,251,1107,5,21,164,1,158.3
+35,"Jonathan Stewart, Car RB",0/0,0,0,0,252,1154,6,28,198,1,172.4
+36,"Julian Edelman, NE WR  P",0/0,0,0,0,9,58,0,90,963,6,138
+37,"Sammy Watkins, Buf WR  P",0/0,0,0,0,5,31,0,74,1035,6,140
+38,"Frank Gore, Ind RB",0/0,0,0,0,242,1036,6,34,280,1,171.4
+39,"Keenan Allen, SD WR",0/0,0,0,0,0,0,0,78,1052,6,139.6
+40,"Todd Gurley, StL RB  Q",0/0,0,0,0,180,824,5,19,152,1,131.3
+41,"Joique Bell*, Det RB  O",0/0,0,0,0,216,834,8,32,250,1,158.5
+42,"DeSean Jackson, Wsh WR  Q",0/0,0,0,0,4,27,0,69,1062,4,132.3
+43,"Latavius Murray, Oak RB",0/0,0,0,0,232,1011,6,25,197,1,160.4
+44,"Vincent Jackson, TB WR",0/0,0,0,0,0,0,0,64,999,5,129
+45,"Joseph Randle, Dal RB",0/0,0,0,0,236,1040,7,15,125,1,158.5
+46,"Andre Ellington, Ari RB",0/0,0,0,0,190,745,5,48,438,2,157.4
+47,"T.J. Yeldon, Jac RB  P",0/0,0,0,0,221,936,6,28,224,1,153.4
+48,"Giovani Bernard, Cin RB",0/0,0,0,0,138,562,5,59,460,1,136.3
+49,"Rashad Jennings, NYG RB",0/0,0,0,0,177,711,6,22,174,1,128.4
+50,"C.J. Spiller, NO RB  Q",0/0,0,0,0,99,454,2,67,559,3,134.6
+51,"Amari Cooper, Oak WR",0/0,0,0,0,4,25,0,77,1027,5,132
+52,"Golden Tate, Det WR",0/0,0,0,0,4,26,0,86,1065,4,130.1
+53,"Andre Johnson, Ind WR",0/0,0,0,0,0,0,0,71,890,8,135.1
+54,"Brandon Marshall, NYJ WR",0/0,0,0,0,0,0,0,76,955,7,135
+55,"Mike Wallace, Min WR",0/0,0,0,0,0,0,0,63,949,5,122
+56,"Jeremy Maclin, KC WR",0/0,0,0,0,0,0,0,80,1033,5,133.7
+57,"LeGarrette Blount, NE RB  SSPD",0/0,0,0,0,194,884,7,8,64,0,134.4
+58,"Greg Olsen, Car TE",0/0,0,0,0,0,0,0,71,866,5,115.3
+59,"Isaiah Crowell, Cle RB",0/0,0,0,0,210,880,5,11,85,0,122.3
+60,"Jarvis Landry, Mia WR",0/0,0,0,0,4,26,0,93,978,5,131.2
+61,"Chris Ivory, NYJ RB",0/0,0,0,0,193,856,4,17,126,1,125.3
+62,"Ryan Mathews, Phi RB",0/0,0,0,0,194,888,4,15,122,1,126.6
+63,"Allen Robinson, Jac WR",0/0,0,0,0,0,0,0,79,1039,5,131
+64,"Travis Kelce, KC TE",0/0,0,0,0,0,0,0,74,799,5,107.3
+65,"Eric Decker, NYJ WR",0/0,0,0,0,0,0,0,71,933,5,123
+66,"Martavis Bryant, Pit WR",0/0,0,0,0,4,26,0,51,763,6,114
+67,"Nelson Agholor, Phi WR",0/0,0,0,0,0,0,0,62,837,5,114.1
+68,"Shane Vereen, NYG RB",0/0,0,0,0,97,412,3,45,410,2,112.3
+69,"Roddy White, Atl WR",0/0,0,0,0,0,0,0,65,823,5,110.1
+70,"Martellus Bennett, Chi TE",0/0,0,0,0,0,0,0,68,740,5,103.9
+71,"Torrey Smith, SF WR",0/0,0,0,0,0,0,0,57,943,4,118
+72,"Tre Mason, StL RB",0/0,0,0,0,144,617,3,18,139,0,90.2
+73,"Doug Martin, TB RB",0/0,0,0,0,203,806,4,20,160,0,118.2
+74,"Michael Floyd, Ari WR  Q",0/0,0,0,0,0,0,0,60,858,5,113.1
+75,"Jason Witten, Dal TE",0/0,0,0,0,0,0,0,58,670,6,103
+76,"Tevin Coleman, Atl RB  P",0/0,0,0,0,188,782,7,22,179,1,141.4
+77,"Charles Johnson, Min WR",0/0,0,0,0,0,0,0,61,893,5,119
+78,"Larry Fitzgerald, Ari WR",0/0,0,0,0,0,0,0,66,830,5,113
+79,"Alfred Blue, Hou RB",0/0,0,0,0,155,585,3,17,136,0,87.2
+80,"Jordan Cameron, Mia TE",0/0,0,0,0,0,0,0,52,641,5,93.7
