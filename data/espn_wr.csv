@@ -1,81 +1,81 @@
-RNK,"PLAYER, TEAM POS",    C/A,  YDS,   TD,  INT, RUSH,  YDS,   TD,  REC,  YDS,   TD,PTS
-1,"Antonio Brown, Pit WR",0/0,0,0,0,4,26,0,116,1522,9,208.7
-2,"Demaryius Thomas, Den WR",0/0,0,0,0,0,0,0,102,1298,11,195
-3,"Dez Bryant, Dal WR  P",0/0,0,0,0,0,0,0,90,1361,10,194
-4,"Odell Beckham Jr., NYG WR  P",0/0,0,0,0,8,54,0,102,1363,8,187
-5,"Jordy Nelson, GB WR",0/0,0,0,0,0,0,0,84,1263,10,186
-6,"Julio Jones, Atl WR",0/0,0,0,0,2,13,0,105,1403,8,187.1
-7,"Calvin Johnson, Det WR",0/0,0,0,0,0,0,0,87,1283,10,188
-8,"A.J. Green, Cin WR",0/0,0,0,0,5,30,0,90,1266,8,175.1
-9,"Alshon Jeffery, Chi WR  Q",0/0,0,0,0,8,51,0,88,1223,8,173
-10,"Randall Cobb, GB WR",0/0,0,0,0,16,119,0,86,1132,8,172
-11,"T.Y. Hilton, Ind WR  P",0/0,0,0,0,4,26,0,86,1194,8,167.6
-12,"Mike Evans, TB WR",0/0,0,0,0,0,0,0,81,1205,7,160
-13,"Emmanuel Sanders, Den WR  P",0/0,0,0,0,9,60,0,78,1086,7,154
-14,"DeAndre Hopkins, Hou WR",0/0,0,0,0,0,0,0,84,1198,5,147.1
-15,"Brandin Cooks, NO WR",0/0,0,0,0,12,82,0,79,1072,6,151.8
-16,"Jordan Matthews, Phi WR",0/0,0,0,0,0,0,0,81,995,7,141
-17,"Julian Edelman, NE WR  P",0/0,0,0,0,9,58,0,90,963,6,138
-18,"Sammy Watkins, Buf WR  P",0/0,0,0,0,5,31,0,74,1035,6,140
-19,"Keenan Allen, SD WR",0/0,0,0,0,0,0,0,78,1052,6,139.6
-20,"DeSean Jackson, Wsh WR  Q",0/0,0,0,0,4,27,0,69,1062,4,132.3
-21,"Vincent Jackson, TB WR",0/0,0,0,0,0,0,0,64,999,5,129
-22,"Amari Cooper, Oak WR",0/0,0,0,0,4,25,0,77,1027,5,132
-23,"Golden Tate, Det WR",0/0,0,0,0,4,26,0,86,1065,4,130.1
-24,"Andre Johnson, Ind WR",0/0,0,0,0,0,0,0,71,890,8,135.1
-25,"Brandon Marshall, NYJ WR",0/0,0,0,0,0,0,0,76,955,7,135
-26,"Mike Wallace, Min WR",0/0,0,0,0,0,0,0,63,949,5,122
-27,"Jeremy Maclin, KC WR",0/0,0,0,0,0,0,0,80,1033,5,133.7
-28,"Jarvis Landry, Mia WR",0/0,0,0,0,4,26,0,93,978,5,131.2
-29,"Allen Robinson, Jac WR",0/0,0,0,0,0,0,0,79,1039,5,131
-30,"Eric Decker, NYJ WR",0/0,0,0,0,0,0,0,71,933,5,123
-31,"Martavis Bryant, Pit WR",0/0,0,0,0,4,26,0,51,763,6,114
-32,"Nelson Agholor, Phi WR",0/0,0,0,0,0,0,0,62,837,5,114.1
-33,"Roddy White, Atl WR",0/0,0,0,0,0,0,0,65,823,5,110.1
-34,"Torrey Smith, SF WR",0/0,0,0,0,0,0,0,57,943,4,118
-35,"Michael Floyd, Ari WR  Q",0/0,0,0,0,0,0,0,60,858,5,113.1
-36,"Charles Johnson, Min WR",0/0,0,0,0,0,0,0,61,893,5,119
-37,"Larry Fitzgerald, Ari WR",0/0,0,0,0,0,0,0,66,830,5,113
-38,"Brandon LaFell*, NE WR  O",0/0,0,0,0,0,0,0,66,861,6,122.4
-39,"Marques Colston, NO WR",0/0,0,0,0,0,0,0,54,797,5,109
-40,"John Brown, Ari WR",0/0,0,0,0,4,25,0,55,782,4,104
-41,"Breshad Perriman, Bal WR  Q",0/0,0,0,0,0,0,0,57,789,6,114
-42,"Kendall Wright, Ten WR",0/0,0,0,0,4,25,0,79,867,4,110
-43,"Steve Smith Sr., Bal WR",0/0,0,0,0,0,0,0,58,767,4,98.1
-44,"Anquan Boldin, SF WR",0/0,0,0,0,0,0,0,69,841,3,102
-45,"Devin Funchess, Car WR  P",0/0,0,0,0,0,0,0,63,793,6,115
-46,"Pierre Garcon, Wsh WR",0/0,0,0,0,0,0,0,59,756,4,99
-47,"Davante Adams, GB WR",0/0,0,0,0,0,0,0,59,818,6,117
-48,"DeVante Parker, Mia WR  Q",0/0,0,0,0,0,0,0,59,824,5,112
-49,"Cody Latimer, Den WR",0/0,0,0,0,0,0,0,61,807,6,116
-50,"Donte Moncrief, Ind WR  P",0/0,0,0,0,6,39,0,37,510,4,78
-51,"Victor Cruz, NYG WR  P",0/0,0,0,0,0,0,0,63,844,5,114
-52,"Eddie Royal, Chi WR",0/0,0,0,0,0,0,0,66,783,4,101.3
-53,"Percy Harvin, Buf WR  P",0/0,0,0,0,23,147,1,54,605,3,97.8
-54,"Marvin Jones, Cin WR",0/0,0,0,0,2,15,0,44,577,3,76
-55,"Malcom Floyd, SD WR",0/0,0,0,0,0,0,0,42,727,5,102
-56,"Doug Baldwin, Sea WR",0/0,0,0,0,2,15,0,53,717,4,97.4
-57,"Dorial Green-Beckham, Ten WR",0/0,0,0,0,0,0,0,41,576,4,81
-58,"Michael Crabtree, Oak WR",0/0,0,0,0,0,0,0,64,758,3,93
-59,"Brian Quick, StL WR  P",0/0,0,0,0,0,0,0,50,708,4,94
-60,"Terrance Williams, Dal WR",0/0,0,0,0,0,0,0,41,683,6,104
-61,"Marqise Lee, Jac WR  Q",0/0,0,0,0,0,0,0,38,438,3,61
-62,"Jaelen Strong, Hou WR",0/0,0,0,0,0,0,0,29,370,2,49
-63,"Kenny Stills, Mia WR",0/0,0,0,0,4,25,0,50,721,3,92
-64,"Rueben Randle, NYG WR  P",0/0,0,0,0,0,0,0,48,693,4,93
-65,"Brandon Coleman, NO WR",0/0,0,0,0,0,0,0,41,666,5,96
-66,"Nick Toon, NO WR",0/0,0,0,0,0,0,0,21,342,2,46
-67,"Dwayne Bowe, Cle WR  Q",0/0,0,0,0,0,0,0,50,629,3,78
-68,"Markus Wheaton, Pit WR",0/0,0,0,0,4,25,0,44,606,3,81
-69,"Cordarrelle Patterson, Min WR",0/0,0,0,0,8,56,0,20,244,1,37.4
-70,"Marquess Wilson, Chi WR",0/0,0,0,0,0,0,0,20,249,2,36
-71,"Phillip Dorsett, Ind WR",0/0,0,0,0,4,26,0,36,442,3,67.8
-72,"Stevie Johnson, SD WR",0/0,0,0,0,0,0,0,51,674,4,91
-73,"Justin Hunter, Ten WR",0/0,0,0,0,0,0,0,20,303,2,42
-74,"Cecil Shorts III, Hou WR",0/0,0,0,0,0,0,0,36,453,3,63
-75,"Cole Beasley, Dal WR  Q",0/0,0,0,0,0,0,0,40,472,3,66.2
-76,"Greg Jennings, Mia WR  P",0/0,0,0,0,0,0,0,32,448,3,62
-77,"Tyler Lockett, Sea WR",0/0,0,0,0,0,0,0,41,588,4,86.7
-78,"Kenny Britt, StL WR",0/0,0,0,0,0,0,0,43,638,4,87
-79,"Andrew Hawkins, Cle WR",0/0,0,0,0,7,45,0,50,513,2,67
-80,"Allen Hurns, Jac WR",0/0,0,0,0,4,24,0,47,621,3,82
+RNK,"PLAYER, TEAM POS",ï¿½ï¿½ï¿½ï¿½C/A,ï¿½ï¿½YDS,ï¿½ï¿½ï¿½TD,ï¿½ï¿½INT,ï¿½RUSH,ï¿½ï¿½YDS,ï¿½ï¿½ï¿½TD,ï¿½ï¿½REC,ï¿½ï¿½YDS,ï¿½ï¿½ï¿½TD,PTS
+1,"Antonio Brown, Pitï¿½WR",0/0,0,0,0,4,26,0,116,1522,9,208.7
+2,"Demaryius Thomas, Denï¿½WR",0/0,0,0,0,0,0,0,102,1298,11,195
+3,"Dez Bryant, Dalï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,90,1361,10,194
+4,"Odell Beckham, NYGï¿½WRï¿½ï¿½P",0/0,0,0,0,8,54,0,102,1363,8,187
+5,"Jordy Nelson, GBï¿½WR",0/0,0,0,0,0,0,0,84,1263,10,186
+6,"Julio Jones, Atlï¿½WR",0/0,0,0,0,2,13,0,105,1403,8,187.1
+7,"Calvin Johnson, Detï¿½WR",0/0,0,0,0,0,0,0,87,1283,10,188
+8,"A.J. Green, Cinï¿½WR",0/0,0,0,0,5,30,0,90,1266,8,175.1
+9,"Alshon Jeffery, Chiï¿½WRï¿½ï¿½Q",0/0,0,0,0,8,51,0,88,1223,8,173
+10,"Randall Cobb, GBï¿½WR",0/0,0,0,0,16,119,0,86,1132,8,172
+11,"T.Y. Hilton, Indï¿½WRï¿½ï¿½P",0/0,0,0,0,4,26,0,86,1194,8,167.6
+12,"Mike Evans, TBï¿½WR",0/0,0,0,0,0,0,0,81,1205,7,160
+13,"Emmanuel Sanders, Denï¿½WRï¿½ï¿½P",0/0,0,0,0,9,60,0,78,1086,7,154
+14,"DeAndre Hopkins, Houï¿½WR",0/0,0,0,0,0,0,0,84,1198,5,147.1
+15,"Brandin Cooks, NOï¿½WR",0/0,0,0,0,12,82,0,79,1072,6,151.8
+16,"Jordan Matthews, Phiï¿½WR",0/0,0,0,0,0,0,0,81,995,7,141
+17,"Julian Edelman, NEï¿½WRï¿½ï¿½P",0/0,0,0,0,9,58,0,90,963,6,138
+18,"Sammy Watkins, Bufï¿½WRï¿½ï¿½P",0/0,0,0,0,5,31,0,74,1035,6,140
+19,"Keenan Allen, SDï¿½WR",0/0,0,0,0,0,0,0,78,1052,6,139.6
+20,"DeSean Jackson, Wshï¿½WRï¿½ï¿½Q",0/0,0,0,0,4,27,0,69,1062,4,132.3
+21,"Vincent Jackson, TBï¿½WR",0/0,0,0,0,0,0,0,64,999,5,129
+22,"Amari Cooper, Oakï¿½WR",0/0,0,0,0,4,25,0,77,1027,5,132
+23,"Golden Tate, Detï¿½WR",0/0,0,0,0,4,26,0,86,1065,4,130.1
+24,"Andre Johnson, Indï¿½WR",0/0,0,0,0,0,0,0,71,890,8,135.1
+25,"Brandon Marshall, NYJï¿½WR",0/0,0,0,0,0,0,0,76,955,7,135
+26,"Mike Wallace, Minï¿½WR",0/0,0,0,0,0,0,0,63,949,5,122
+27,"Jeremy Maclin, KCï¿½WR",0/0,0,0,0,0,0,0,80,1033,5,133.7
+28,"Jarvis Landry, Miaï¿½WR",0/0,0,0,0,4,26,0,93,978,5,131.2
+29,"Allen Robinson, Jacï¿½WR",0/0,0,0,0,0,0,0,79,1039,5,131
+30,"Eric Decker, NYJï¿½WR",0/0,0,0,0,0,0,0,71,933,5,123
+31,"Martavis Bryant, Pitï¿½WR",0/0,0,0,0,4,26,0,51,763,6,114
+32,"Nelson Agholor, Phiï¿½WR",0/0,0,0,0,0,0,0,62,837,5,114.1
+33,"Roddy White, Atlï¿½WR",0/0,0,0,0,0,0,0,65,823,5,110.1
+34,"Torrey Smith, SFï¿½WR",0/0,0,0,0,0,0,0,57,943,4,118
+35,"Michael Floyd, Ariï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,60,858,5,113.1
+36,"Charles Johnson, Minï¿½WR",0/0,0,0,0,0,0,0,61,893,5,119
+37,"Larry Fitzgerald, Ariï¿½WR",0/0,0,0,0,0,0,0,66,830,5,113
+38,"Brandon LaFell*, NEï¿½WRï¿½ï¿½O",0/0,0,0,0,0,0,0,66,861,6,122.4
+39,"Marques Colston, NOï¿½WR",0/0,0,0,0,0,0,0,54,797,5,109
+40,"John Brown, Ariï¿½WR",0/0,0,0,0,4,25,0,55,782,4,104
+41,"Breshad Perriman, Balï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,57,789,6,114
+42,"Kendall Wright, Tenï¿½WR",0/0,0,0,0,4,25,0,79,867,4,110
+43,"Steve Smith Sr., Balï¿½WR",0/0,0,0,0,0,0,0,58,767,4,98.1
+44,"Anquan Boldin, SFï¿½WR",0/0,0,0,0,0,0,0,69,841,3,102
+45,"Devin Funchess, Carï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,63,793,6,115
+46,"Pierre Garcon, Wshï¿½WR",0/0,0,0,0,0,0,0,59,756,4,99
+47,"Davante Adams, GBï¿½WR",0/0,0,0,0,0,0,0,59,818,6,117
+48,"DeVante Parker, Miaï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,59,824,5,112
+49,"Cody Latimer, Denï¿½WR",0/0,0,0,0,0,0,0,61,807,6,116
+50,"Donte Moncrief, Indï¿½WRï¿½ï¿½P",0/0,0,0,0,6,39,0,37,510,4,78
+51,"Victor Cruz, NYGï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,63,844,5,114
+52,"Eddie Royal, Chiï¿½WR",0/0,0,0,0,0,0,0,66,783,4,101.3
+53,"Percy Harvin, Bufï¿½WRï¿½ï¿½P",0/0,0,0,0,23,147,1,54,605,3,97.8
+54,"Marvin Jones, Cinï¿½WR",0/0,0,0,0,2,15,0,44,577,3,76
+55,"Malcom Floyd, SDï¿½WR",0/0,0,0,0,0,0,0,42,727,5,102
+56,"Doug Baldwin, Seaï¿½WR",0/0,0,0,0,2,15,0,53,717,4,97.4
+57,"Dorial Green-Beckham, Tenï¿½WR",0/0,0,0,0,0,0,0,41,576,4,81
+58,"Michael Crabtree, Oakï¿½WR",0/0,0,0,0,0,0,0,64,758,3,93
+59,"Brian Quick, StLï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,50,708,4,94
+60,"Terrance Williams, Dalï¿½WR",0/0,0,0,0,0,0,0,41,683,6,104
+61,"Marqise Lee, Jacï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,38,438,3,61
+62,"Jaelen Strong, Houï¿½WR",0/0,0,0,0,0,0,0,29,370,2,49
+63,"Kenny Stills, Miaï¿½WR",0/0,0,0,0,4,25,0,50,721,3,92
+64,"Rueben Randle, NYGï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,48,693,4,93
+65,"Brandon Coleman, NOï¿½WR",0/0,0,0,0,0,0,0,41,666,5,96
+66,"Nick Toon, NOï¿½WR",0/0,0,0,0,0,0,0,21,342,2,46
+67,"Dwayne Bowe, Cleï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,50,629,3,78
+68,"Markus Wheaton, Pitï¿½WR",0/0,0,0,0,4,25,0,44,606,3,81
+69,"Cordarrelle Patterson, Minï¿½WR",0/0,0,0,0,8,56,0,20,244,1,37.4
+70,"Marquess Wilson, Chiï¿½WR",0/0,0,0,0,0,0,0,20,249,2,36
+71,"Phillip Dorsett, Indï¿½WR",0/0,0,0,0,4,26,0,36,442,3,67.8
+72,"Stevie Johnson, SDï¿½WR",0/0,0,0,0,0,0,0,51,674,4,91
+73,"Justin Hunter, Tenï¿½WR",0/0,0,0,0,0,0,0,20,303,2,42
+74,"Cecil Shorts III, Houï¿½WR",0/0,0,0,0,0,0,0,36,453,3,63
+75,"Cole Beasley, Dalï¿½WRï¿½ï¿½Q",0/0,0,0,0,0,0,0,40,472,3,66.2
+76,"Greg Jennings, Miaï¿½WRï¿½ï¿½P",0/0,0,0,0,0,0,0,32,448,3,62
+77,"Tyler Lockett, Seaï¿½WR",0/0,0,0,0,0,0,0,41,588,4,86.7
+78,"Kenny Britt, StLï¿½WR",0/0,0,0,0,0,0,0,43,638,4,87
+79,"Andrew Hawkins, Cleï¿½WR",0/0,0,0,0,7,45,0,50,513,2,67
+80,"Allen Hurns, Jacï¿½WR",0/0,0,0,0,4,24,0,47,621,3,82

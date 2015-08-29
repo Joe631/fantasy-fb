@@ -14,12 +14,15 @@ POS_MAX = {'qb': 1, 'wr': 2, 'rb': 2, 'te': 1, 'fx': 1, 'kr': 1, 'df': 1}
 # Also, assume 10 people in the league
 NUM_TEAMS = 10
 
-sources = ['cbs', 'espn', 'nfl']
+
+# <<<--- BEGIN: Do data transformation --->>>
+sources = ['cbs', 'espn', 'nfl', 'fp']
 positions = ['qb', 'kr', 'df', 'rb', 'wr', 'te']
 
 espn_data = []
 cbs_data = []
 nfl_data = []
+fp_data = []
 
 for source in sources:
     for position in positions:
@@ -63,12 +66,21 @@ for source in sources:
 
                     record['pts'] = line[-1]
                     nfl_data.append(record)
+                elif source == 'fp':
+                    record = {}
+                    record['position'] = position
+                    record['player'] = line[0].split(',')[0]
+                    record['pts'] = line[-1]
+                    #print record
+                    fp_data.append(record)
 
 #df_cbs = pd.DataFrame.from_dict(cbs_data)
 #df_espn = pd.DataFrame.from_dict(espn_data)
 #df_nfl = pd.DataFrame.from_dict(nfl_data)
 
-raw_data = [cbs_data, espn_data, nfl_data]
+# Which data sets should we use?
+# cbs_data, espn_data, nfl_data, fp_data
+raw_data = [espn_data, nfl_data, fp_data]
 scrubbed_data = {}
 for i, lst in enumerate(raw_data):
     for j, rec in enumerate(lst):
@@ -76,7 +88,6 @@ for i, lst in enumerate(raw_data):
             continue
 
         if scrubbed_data.get((rec['position'], rec['player'])):
-            #print rec['player'], scrubbed_data.get(rec['player'])
             scrubbed_data[(rec['position'], rec['player'])].append(float(rec['pts']))
         else:
             scrubbed_data[(rec['position'], rec['player'])] = [float(rec['pts'])]
@@ -90,21 +101,39 @@ for i, k in enumerate(scrubbed_data.iteritems()):
         avg_pts.append(avg)
         final_lst.append(avg_pts)
 
-
+# Configure main data frame of pool of players
 df = pd.DataFrame(final_lst)
 df.rename(columns={0: 'pos', 1: 'player', 2: 'pts'}, inplace=True)
-
 df['player_name'] = df['player']
 df = df.set_index('player')
 
-### once rank can no longer find 10th or 20th value, just use last value
+# Configure empty data for players that I select
+my_df = None
+
+# <<<--- END: Do data transformation --->>>
 
 
-# Start program loop based on data transformed
+
+
+
+
+
+# <<<--- BEGIN: Start program loop based on transformed data --->>>
+
 while True:
-    df['rank'] = df.groupby(['pos'])['pts'].rank(ascending=False)
+    df['rank'] = df.groupby(['pos'])['pts'].rank(method='dense', ascending=False)
 
-    print 'pos | fpts | player'
+    # Print our team
+    # TODO: Pretty print our team
+    if my_df is not None:
+        if not my_df.empty:
+            print '<<<--- Our Awesome Team Lineup --->>>'
+            print my_df
+            print
+
+    # Print next best CPV
+    print '<<<--- Next Best Player Based on CPV --->>>'
+    print 'pos | cpv | fpts | player'
     print '-----------------------------'
     lst = []
     for k, v in POS_MAX.iteritems():
@@ -117,16 +146,19 @@ while True:
         if not low or not high:
             continue
 
-        lst.append([k.upper(), "{0:.1f}".format(high[0] - low[0]), high_player[0]])
+        lst.append([k.upper(), "{0:.1f}".format(high[0] - low[0]), "{0:.1f}".format(high[0]), high_player[0]])
 
     sortedL = sorted(lst, key=operator.itemgetter(1), reverse=True)
     for line in sortedL:
-        print line[0], '|', line[1], '|', line[2]
+        print line[0], '|', line[1], '|', line[2], '|', line[3]
     print
 
+    # Search a player
     input_name = raw_input('Lookup a player: ')
     player_df = df[df['player_name'].str.contains("{0}".format(input_name))==True]
     find_cnt = len(player_df)
+
+    # Handle errors in player search
     if find_cnt == 0:
         print "<<<---WARNING: No players found! Resetting!--->>>\n"
         continue
@@ -142,13 +174,32 @@ while True:
     print "Found this player... \n", player_df
     print
 
-    del_player = raw_input('Do you want to delete this player (y/n): ')
+    # Enter prompt to decide if we drafted this person or another team
+    del_player = raw_input('Did we draft this person (y/n): ')
     print
+
+    player_to_delete = player_df['player_name'][0]
+
+
     if del_player == 'y':
-        player_to_delete = player_df['player_name'][0]
+        # If you drafted this person, put him in my_df
+        if my_df is None:
+            my_df = df[df.player_name == player_to_delete]
+        else:
+            my_df = pd.concat([my_df, df[df.player_name == player_to_delete]])
+
+        # Don't forget to remove him from the main df
         df = df[df.player_name != player_to_delete]
     else:
+        df = df[df.player_name != player_to_delete]
         continue
+
+# <<<--- END: Start program loop based on data transformed --->>>
+
+
+
+
+
 
 
 """
