@@ -1,3 +1,4 @@
+import sys
 import csv
 import pandas as pd
 import re
@@ -70,6 +71,7 @@ for source in sources:
                     record = {}
                     record['position'] = position
                     record['player'] = line[0].split(',')[0]
+                    record['team'] = line[1]
                     record['pts'] = line[-1]
                     #print record
                     fp_data.append(record)
@@ -101,9 +103,30 @@ for i, k in enumerate(scrubbed_data.iteritems()):
         avg_pts.append(avg)
         final_lst.append(avg_pts)
 
+# Add more columns!
+# Create dict w/ player as key and team as value
+team_dict = {}
+for i, record in enumerate(fp_data):
+    team_dict[record.get('player')] = record.get('team')
+    #print record
+
+# Get team name
+final_lst2 = []
+for i, elem in enumerate(final_lst):
+    # Do hash map lookup
+    record = elem
+    try:
+        record.append(team_dict[elem[1]])
+    except KeyError as k:
+        # If we don't know his team, just hardcode UNK for unknown
+        record.append('UNK')
+
+    final_lst2.append(record)
+
+
 # Configure main data frame of pool of players
 df = pd.DataFrame(final_lst)
-df.rename(columns={0: 'pos', 1: 'player', 2: 'pts'}, inplace=True)
+df.rename(columns={0: 'pos', 1: 'player', 2: 'pts', 3: 'team'}, inplace=True)
 df['player_name'] = df['player']
 df = df.set_index('player')
 
@@ -133,12 +156,15 @@ while True:
 
     # Print next best CPV
     print '<<<--- Next Best Player Based on CPV --->>>'
-    print 'pos | cpv | fpts | player'
+    print 'pos | cpv | fpts | player | team'
     print '-----------------------------'
     lst = []
     for k, v in POS_MAX.iteritems():
         high_val = df.query("pos=='{pos}' & rank=={rank}".format(pos=k, rank=v))
         low_val = df.query("pos=='{pos}' & rank=={rank}".format(pos=k, rank=v*NUM_TEAMS))
+
+        high_val_team = high_val['team']
+        team = high_val_team.tolist()
 
         high, low = high_val['pts'].tolist(), low_val['pts'].tolist()
         high_player, low_player = high_val.index.values, low_val.index.values
@@ -146,11 +172,11 @@ while True:
         if not low or not high:
             continue
 
-        lst.append([k.upper(), "{0:.1f}".format(high[0] - low[0]), "{0:.1f}".format(high[0]), high_player[0]])
+        lst.append([k.upper(), "{0:.1f}".format(high[0] - low[0]), "{0:.1f}".format(high[0]), high_player[0], team[0]])
 
     sortedL = sorted(lst, key=operator.itemgetter(1), reverse=True)
     for line in sortedL:
-        print line[0], '|', line[1], '|', line[2], '|', line[3]
+        print line[0], '|', line[1], '|', line[2], '|', line[3], '|', line[4]
     print
 
     # Search a player
@@ -175,11 +201,13 @@ while True:
     print
 
     # Enter prompt to decide if we drafted this person or another team
-    del_player = raw_input('Did we draft this person (y/n): ')
+    del_player = raw_input('Did we draft this person (y/n/c): ')
     print
 
     player_to_delete = player_df['player_name'][0]
 
+    if del_player == 'c':
+        continue
 
     if del_player == 'y':
         # If you drafted this person, put him in my_df
